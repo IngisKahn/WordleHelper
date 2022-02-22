@@ -8,8 +8,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Update="words - Copy.txt">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    <None Update="AllWords.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="wordle.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="wordleAnswers.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="words2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="words.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
